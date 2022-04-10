@@ -3,8 +3,8 @@ This Replication Package is intended for replication of results presented in the
 
 Our replication package consists of two main folders: 1, 2, and Artifacts.
 
-## Training and Converting Models
-This folder contains detailed results of trained and the converted models to ONNX and CoreML: prediction accuracy, running time, and memory consumption.
+## Conversion
+This folder contains detailed results of training and then converting models to ONNX and CoreML: prediction accuracy, running time, and memory consumption.
 
-## Robustness of Converted Models
-This folder contains the data used to evaluate the robustness of our trained models and the results obtained.
+## Robustness
+This folder contains the data used to evaluate the robustness of our models (original and converted) and the results obtained.
