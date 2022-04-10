@@ -1,5 +1,5 @@
 # An Empirical Study of Challenges in Converting DL Models
-This Replication Package is intended for replication of results presented in the paper "An Empirical Study of Challenges in Converting Deep Learning Models" submitted to ICSME2022 in April 2022. It contains the data, and code used to produce results in the paper.
+This Replication Package is intended for replication of results presented in the paper "An Empirical Study of Challenges in Converting Deep Learning Models'' submitted to ICSME2022 in April 2022. It contains the data, and our detailed results presented in the paper.
 
 Our replication package consists of three main folders: 1, 2, and Artifacts.
 
