@@ -1,0 +1,1101 @@
+Model,type,Dataset,Epoch,criterion,optimizer,scheduler,Train_loss,Train_acc,val_loss,Val_acc,time,Elasttime
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,0/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.1
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.5474,0.8211,0.111,0.9649,1635787181,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,1/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.1
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.1095,0.9681,0.0777,0.9748,1635787192,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,2/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.1
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0717,0.9788,0.0652,0.9798,1635787203,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,3/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.1
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0574,0.9824,0.0707,0.9763,1635787214,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,4/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.1
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0518,0.9844,0.0604,0.9829,1635787224,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,5/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.1
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0428,0.9863,0.0662,0.9813,1635787235,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,6/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0395,0.9876,0.0699,0.978,1635787246,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,7/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0242,0.9924,0.0388,0.9893,1635787256,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,8/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0176,0.9946,0.0381,0.9896,1635787267,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,9/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0156,0.9955,0.0381,0.9901,1635787278,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,10/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0141,0.9958,0.0382,0.9903,1635787288,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,11/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0129,0.9963,0.0386,0.99,1635787299,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,12/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.012,0.9966,0.0389,0.9901,1635787310,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,13/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.0010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0111,0.9969,0.0395,0.9902,1635787320,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,14/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.0010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0098,0.9972,0.0389,0.9905,1635787331,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,15/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.0010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0096,0.9973,0.0388,0.9906,1635787342,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,16/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.0010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0095,0.9974,0.0388,0.9905,1635787352,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,17/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.0010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0094,0.9974,0.0388,0.9906,1635787363,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,18/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.0010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0093,0.9974,0.0389,0.9907,1635787374,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,19/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.0010000000000000002
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0092,0.9975,0.039,0.9907,1635787384,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,20/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.00010000000000000003
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0091,0.9975,0.039,0.9907,1635787395,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,21/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.00010000000000000003
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.009,0.9975,0.039,0.9907,1635787406,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,22/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.00010000000000000003
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.009,0.9975,0.039,0.9907,1635787416,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,23/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.00010000000000000003
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.009,0.9975,0.039,0.9907,1635787427,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,24/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.00010000000000000003
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9975,0.039,0.9907,1635787438,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,25/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.00010000000000000003
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9975,0.039,0.9907,1635787448,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,26/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 0.00010000000000000003
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787459,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,27/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-05
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787470,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,28/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-05
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787480,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,29/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-05
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787491,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,30/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-05
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787502,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,31/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-05
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787512,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,32/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-05
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787523,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,33/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-05
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787534,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,34/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-06
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787545,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,35/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-06
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787555,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,36/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-06
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787566,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,37/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-06
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787577,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,38/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-06
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787587,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,39/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-06
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787598,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,40/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000004e-06
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787609,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,41/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000005e-07
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787619,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,42/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000005e-07
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787630,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,43/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000005e-07
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787641,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,44/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000005e-07
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787651,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,45/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000005e-07
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787662,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,46/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000005e-07
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787673,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,47/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000005e-07
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787683,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,48/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000005e-08
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787694,0m 11s
+"Sequential(
+  (0): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (1): ReLU()
+  (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (3): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (4): ReLU()
+  (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  (6): Flatten(start_dim=1, end_dim=-1)
+  (7): Linear(in_features=400, out_features=120, bias=True)
+  (8): ReLU()
+  (9): Linear(in_features=120, out_features=84, bias=True)
+  (10): ReLU()
+  (11): Linear(in_features=84, out_features=10, bias=True)
+)",pytorch,mnist,49/49,CrossEntropyLoss(),"SGD (
+Parameter Group 0
+    dampening: 0
+    initial_lr: 0.1
+    lr: 1.0000000000000005e-08
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)",<torch.optim.lr_scheduler.StepLR object at 0x7fbb2a081d30>,0.0089,0.9976,0.039,0.9907,1635787705,0m 11s
