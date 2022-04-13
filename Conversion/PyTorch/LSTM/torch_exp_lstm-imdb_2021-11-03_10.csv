@@ -1,0 +1,401 @@
+Epoch,optimizer,Train_loss,Train_acc,val_loss,Val_acc,time,Elapse_time,date
+1,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.529823766,0.730053333,0.44733128,0.7936,1635947051,33.05914378,2021-11-03
+2,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.388328881,0.832346667,0.377857561,0.8328,1635947084,33.11822701,2021-11-03
+3,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.349315686,0.851466667,0.362866858,0.84632,1635947117,33.14004827,2021-11-03
+4,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.321319375,0.86608,0.362582107,0.8444,1635947151,33.06988883,2021-11-03
+5,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.308085329,0.872026667,0.386204236,0.84512,1635947184,33.11134672,2021-11-03
+6,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.273307545,0.889066667,0.359061293,0.84824,1635947221,37.42208457,2021-11-03
+7,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.246566945,0.899173333,0.410917584,0.84296,1635947259,37.47425103,2021-11-03
+8,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.21468956,0.914773333,0.406816634,0.8448,1635947296,37.49000216,2021-11-03
+9,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.16598328,0.935973333,0.469041446,0.83872,1635947333,36.49986506,2021-11-03
+10,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.112339537,0.958533333,0.562518465,0.83992,1635947368,35.05875754,2021-11-03
+11,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.074245958,0.97312,0.636500665,0.82664,1635947403,35.38585234,2021-11-03
+12,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.052354103,0.981626667,0.808982394,0.82912,1635947438,35.34260869,2021-11-03
+13,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.039076098,0.98648,0.896682074,0.83312,1635947472,33.19022703,2021-11-03
+14,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.023378281,0.992613333,1.010755196,0.83408,1635947505,33.1502738,2021-11-03
+15,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.028271256,0.990586667,0.94556947,0.836,1635947538,33.16824985,2021-11-03
+16,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.028154802,0.99024,0.9539781,0.8328,1635947571,33.16495848,2021-11-03
+17,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.017509816,0.994506667,0.965672425,0.82888,1635947604,33.11712384,2021-11-03
+18,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.01513617,0.995093333,1.0982663,0.82264,1635947637,33.13251328,2021-11-03
+19,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.010336467,0.996693333,1.251096808,0.82288,1635947670,33.09361696,2021-11-03
+20,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.012252268,0.99608,1.077317465,0.82528,1635947708,37.40211678,2021-11-03
+21,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.018300668,0.993653333,1.091038948,0.82704,1635947742,33.95854139,2021-11-03
+22,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.014088388,0.995493333,1.191539264,0.8284,1635947778,36.05501413,2021-11-03
+23,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.007512472,0.997493333,1.442724376,0.82952,1635947813,34.95194674,2021-11-03
+24,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.015138242,0.994773333,1.062470827,0.82776,1635947850,37.25856614,2021-11-03
+25,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.018346316,0.99392,1.060177266,0.82728,1635947884,33.76834989,2021-11-03
+26,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.006941772,0.998053333,1.310052908,0.83352,1635947917,33.25327301,2021-11-03
+27,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.00365096,0.99912,1.331644143,0.832,1635947950,33.17237353,2021-11-03
+28,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.017816493,0.994,1.018886193,0.82792,1635947983,33.13495731,2021-11-03
+29,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.01096095,0.99632,1.129331078,0.83312,1635948019,35.23425555,2021-11-03
+30,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.006873467,0.997786667,1.213639041,0.83448,1635948055,36.93711376,2021-11-03
+31,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.010104654,0.996773333,1.158315345,0.82592,1635948089,33.2569232,2021-11-03
+32,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.010020014,0.996693333,1.179038002,0.83704,1635948122,33.19364572,2021-11-03
+33,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.008268947,0.99728,1.266408589,0.83576,1635948155,33.1539638,2021-11-03
+34,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.007131265,0.997706667,1.23888235,0.82152,1635948188,33.1610446,2021-11-03
+35,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.012562608,0.996053333,1.119728122,0.83224,1635948221,33.12340689,2021-11-03
+36,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.011309303,0.99576,1.180076362,0.8264,1635948254,33.09509659,2021-11-03
+37,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.005654484,0.99832,1.280821806,0.82552,1635948288,33.12656569,2021-11-03
+38,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.004045271,0.99888,1.384358604,0.82168,1635948321,33.11974263,2021-11-03
+39,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.009638573,0.997146667,1.104037684,0.82616,1635948354,33.09371734,2021-11-03
+40,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.009066978,0.99704,1.240149708,0.83472,1635948387,33.13677549,2021-11-03
+41,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.003952308,0.998933333,1.53095326,0.82872,1635948420,33.09737778,2021-11-03
+42,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.004484374,0.998453333,1.554191162,0.832,1635948453,33.11939216,2021-11-03
+43,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.00747457,0.997786667,1.252660575,0.82872,1635948486,33.08508468,2021-11-03
+44,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.015463153,0.994746667,1.045417094,0.82328,1635948524,37.58170342,2021-11-03
+45,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.006859883,0.99792,1.26389204,0.83248,1635948558,34.17161608,2021-11-03
+46,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.001412915,0.99968,1.507792948,0.8284,1635948595,37.29955053,2021-11-03
+47,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.001338056,0.999733333,1.640968317,0.83392,1635948631,35.92839241,2021-11-03
+48,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.012437586,0.995813333,1.167215357,0.82296,1635948669,37.40523148,2021-11-03
+49,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.00733835,0.997706667,1.226259173,0.82688,1635948704,35.15593767,2021-11-03
+50,"Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)",0.004523387,0.99864,1.382566087,0.82984,1635948737,33.12663078,2021-11-03
